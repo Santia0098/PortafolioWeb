@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+}
+
+.container {
+    background-color: #343A40;
+}
+
+li,
+a,
+button {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+.links {
+    list-style: none;
+}
+
+.links li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.links li a {
+    transition: all 0.5s ease 0s;
+    text-decoration: none;
+}
+
+.links li a:hover {
+    color: #FF0000;
+}
+
+header p {
+    font-family: Poppins;
+    color: #FF0000;
+    font-size: 40px;
+    margin-right: 100px;
+}
+
+a button {
+    padding: 0px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+a button:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.container {
+    width: 100vh;
+}
+
+img {
+    width: 230px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}

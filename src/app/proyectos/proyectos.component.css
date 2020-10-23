@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Poppins;
+    src: url('../../assets/fonts/Poppins-Regular.ttf');
+}
+
+img {
+    width: 180px;
+    height: 160px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #161616;
+    font-family: Poppins;
+    color: white;
+}
+
+.container {
+    padding: 30px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    flex-wrap: wrap;
+}
+
+footer {
+    align-self: flex-end;
+    background-color: white;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+    display: inline-block;
+}
+
+.row {
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.datos p {
+    line-height: 20px;
+}
+
+.row img {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.social {
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    list-style-type: none;
+}
+
+li:nth-child(1) {
+    background-color: #3b5998;
+}
+
+li:nth-child(2) {
+    background-color: #db4a39;
+}
+
+li:nth-child(3) {
+    background-color: #01DF01;
+}
+
+.social-item {
+    cursor: pointer;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    transition: width 500ms ease;
+}
+
+.icon {
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+
+.network {
+    transition: all 600ms ease;
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    color: white;
+}
+
+.social-item:hover {
+    width: 300px;
+}
+
+.social-item:hover .network {
+    opacity: 1;
+    left: 60px;
+}
+
+a:hover {
+    color: black;
+}
+
+.data {
+    line-height: 18px;
+    margin-left: 0px;
+}
+
+.info {
+    background-color: white;
+    opacity: 0.3;
+    color: black;
+}
+
+.padre {
+    margin-top: -80px;
+}
